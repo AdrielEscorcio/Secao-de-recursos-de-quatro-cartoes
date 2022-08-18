@@ -1,4 +1,4 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: 40px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @font-face {
@@ -38,7 +38,11 @@ h1,h2,span {
   color: var(--Very-Dark-Blue);
 }
 span {
-  font-size: 1.7rem;
+  font-size: 2.4rem;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 .conteiner {
@@ -51,20 +55,25 @@ span {
   text-align: center;
 }
 
+.cabecalho p {
+  
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   max-width: 1200px;
-  gap: 25px;
+  gap: 30px;
   
 }
 
 .cards > div {
   padding: 30px;
-  border-top: 4px solid transparent;
+  border-top: 5px solid transparent;
   background-color: white;
   border-radius: 5px;
+  /* box-shadow: 1px 11px 17px 5px rgba(0,0,0,0.27); */
+  box-shadow: 0px 16px 20px -4px rgba(0,0,0,0.27);
 }
 
 .cards p {
@@ -74,7 +83,7 @@ span {
 
 .alinhamento-img {
   text-align: end;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .cards .um {
