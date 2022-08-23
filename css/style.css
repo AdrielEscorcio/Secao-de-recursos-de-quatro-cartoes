@@ -107,3 +107,43 @@ h1 {
   border-color: var(--Blue);
 }
 
+@media (max-width: 700px) {
+  body {
+    justify-content: flex-start;
+  }
+
+  .cabecalho {
+    margin-top: 20px;
+  }
+
+  span {
+    font-size: 1.4rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .cards .um {
+    grid-row: 1;
+  }
+
+  .cards .dois {
+    grid-row: 2;
+  }
+
+  .cards .tres {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .cards .quatro {
+    grid-row: 4;
+  }
+}
+
